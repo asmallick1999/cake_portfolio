@@ -1,0 +1,159 @@
+/* ------------------------------------------Bebas Neue---------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Fredoka:wght@400;500&family=League+Gothic&family=Lobster&family=Pacifico&family=Roboto+Mono:wght@200&family=Saira+Condensed:wght@100&family=Sansita+Swashed:wght@700&family=Smooch+Sans:wght@200&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Fredoka:wght@400;500&family=League+Gothic&family=Lobster&family=Pacifico&family=Roboto+Mono:wght@200&family=Saira+Condensed:wght@100&family=Sansita+Swashed:wght@700&family=Smooch+Sans:wght@200&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&family=Syne+Mono&display=swap');
+
+
+/* -----------------------------------BODY---------------------------------------------- */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*................................HEADER PART..............................................*/
+
+header{
+    background-color: #202938;
+    color: white;
+}
+.navbar{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.navbar h3{
+    font-family: 'fredoka', sans-serif;
+    font-size: 14px;
+
+}
+.nav-ancor a{
+    text-decoration: none;
+    color: white;
+    gap: 15%;
+    margin: 0 10px;
+} 
+.sec0{
+    display: flex;
+    margin: 0 auto;
+    
+}
+.head-left{
+    flex: 50%;
+    text-align: left;
+    padding: 20px 5px 70px 100px ;
+    font-family: 'Fredoka', sans-serif;
+    
+    
+}
+.head-left h1{
+    font-size: 33px;
+}
+.head-right{
+    width: 100%;
+    flex: 50%;
+    align-items: center;
+    padding: 26px;
+    
+}
+.head-right img{
+    border-radius: 15px;
+}
+.sec0 button{
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* -----------------------------------IMAGE SECTION----------------------------------------------- */
+
+.mid h2{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.mid-sec{
+    display: flex;
+    font-family: 'Saira Condensed', sans-serif;
+    gap: 50px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mid-sec-img img{
+    border-radius: 20px;
+} 
+.mid-sec-img p{
+    text-align: center;
+}  
+/*-----------------------------------QUOTS SECTION-----------------------------------------------*/
+
+.sec2{
+    background-color: #e6e7eb;
+}
+.container-sec2{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.sec2 .container-sec2 .Quots-contain P{
+    font-family: 'Syne Mono', monospace;
+    font-size: 20PX;
+    font-style: italic;
+}
+.Quots-writer P{
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*----------------------------------CALL TO ACTION SECTION---------------------------------------------*/
+
+.sec3{
+    padding: 50PX;
+}   
+.call{
+    background-color: #e1bde4;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 7px;
+}
+.call h3{
+    font-size: 29px;
+}
+.call p{
+    margin-top: 0;
+}
+.lower-button button{
+    background-color: #c3e8eb;
+    color:#39edfa;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 8px;
+    border-color: white;
+}
+
+
+/*----------------------------------FOOTER SECTION----------------------------------------------*/
+
+footer{
+    background-color: #202938;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+footer p{
+    margin-bottom: 0px;
+}
+
+
